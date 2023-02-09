@@ -1,1 +1,318 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+  <meta charset="utf-8">
+  <title>User Profiling with Graph Neural Networks and Related Beyond-Accuracy Perspectives</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--==========================
+    Header
+    ============================-->
+    <header id="header">
+        <div class="container">
+
+            <div id="logo" class="pull-left">
+                <h1><a href="#intro">UserProfiling GNNs</a></h1>
+            </div>
+
+            <nav id="nav-menu-container">
+                <ul class="nav-menu">
+                    <li><a href="#abstract">Introduction</a></li>
+                    <li><a href="#audience">Target Audience</a></li>
+                    <li><a href="#structure">Outline</a></li>
+                    <li><a href="#resources">Material</a></li>
+                    <li><a href="#organizers">Presenters</a></li>
+                    <li><a href="#registration">Registration</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav><!-- #nav-menu-container -->
+        </div>
+    </header><!-- #header -->
+
+    <!--==========================
+    Intro Section
+    ============================-->
+    <section id="intro">
+        <div class="intro-container wow fadeIn">
+            <h1 class="mb-4 pb-0">Tutorial on <br/> User Profiling with Graph Neural Networks <br> and Related Beyond-Accuracy Perspectives</h1>
+            <p class="mb-4 pb-0">Held as part of the 31st ACM Conference on User Modeling, Adaptation and Personalization (<u><a href="https://www.um.org/umap2023/" target="_blank">UMAP 2023</a></u>)</p>
+            <p class="mb-4 pb-0">June 26, 2023 - Limassol, Cyprus</p>
+        </div>
+    </section>
+
+    <main id="main">
+
+    <!--==========================
+    Introduction Section
+    ============================-->
+    <section id="abstract" class="wow fadeInUp">
+
+        <div class="container-fluid">
+            <div class="section-header">
+                <h2>Introduction</h2>
+                <p>
+                    The proposed tutorial aims to introduce the UMAP community to modern <strong>user profiling approaches</strong> leveraging <strong>graph neural networks</strong> (GNNs). We will begin by discussing the conceptual foundations of user profiling and GNNs and providing a literature review of the two topics. We will then present a systematic overview of the state-of-the-art GNN architectures designed for user profiling, including the types of data that are typically used for this purpose.
+                    We will also discuss <strong>ethical considerations</strong> and <strong>beyond-accuracy perspectives</strong> (i.e. fairness and explainability), which can arise within the potential applications of adopting GNNs for user profiling.
+                    In the practical session of the tutorial, attendees will have the opportunity to understand concretely how recent GNN models for user profiling are built and trained with open-source tools and publicly available datasets.
+                    The audience will also be engaged in investigating the impact of the presented models on <strong>case studies</strong> involving bias detection and mitigation, as well as user profiles explanations.
+                    The tutorial will end with an analysis of existing and emerging <strong>open challenges</strong> in the field and their <strong>future research directions</strong>.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--==========================
+    Target Audience Section
+    ============================-->
+
+    <section id="audience" class="wow fadeInUp section-with-bg" style="padding: 60px 0 30px 0;">
+
+        <div class="container-fluid">
+            <div class="section-header">
+                <h2>Target Audience</h2>
+                <p>
+                    The tutorial is intended for a <strong>beginner</strong> or <strong>intermediate</strong> audience and is open to researchers, industry technologists and practitioners.
+                    It covers all the necessary background on user profiling and graph neural networks in order to make it also accessible to people <strong>without prior knowledge</strong> about these topics, which is not assumed.
+                    Basic knowledge of <strong>Python programming</strong> is preferred, as well as familiarity with common data science libraries, such as Pandas and NumPy.
+                    It is worth noticing that, despite the technical aspects, the key concepts illustrated during the tutorial and their applications touch a range of interdisciplinary fields, making also the proposed outline of interest to an <strong>interdisciplinary audience</strong>.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--==========================
+    Outline Section
+    ============================-->
+    <section id="structure" class="wow fadeInUp">
+
+        <div class="container-fluid">
+            <div class="section-header">
+                <h2>Outline</h2>
+
+                <p>This tutorial will take place on <strong>June 26, 2023</strong> in Limassol, Cyprus, as part of the 31st ACM Conference on User Modeling, Adaptation and Personalization (UMAP 2023).</p>
+
+                <p><em>The following outline might be modified.</em></p>
+
+                <div style="margin: 10px auto 30px auto; width: 50%;">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col" class="time">Timing</th>
+                            <th scope="col">Content</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row" class="time"><strong>5 mins</strong></th>
+                            <td><strong>Opening and instructors' presentation</strong></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"><strong>80 mins</strong></th>
+                            <td><strong>User profiling session</strong></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"></th>
+                            <td>
+                                <div style="margin-bottom: 9px;"><strong>Introduction to user profiling</strong> (15 mins)</div>
+                                Historical overview of the research on user profiling is given to set the basis for understanding the recent advances. In particular, starting from the definition of the key terms in the field (e.g. the difference between explicit and implicit user profiling), we will illustrate several user profiling contributions in different domains.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"></th>
+                            <td>
+                                <div style="margin-bottom: 9px;"><strong>Introduction to GNNs</strong> (15 mins)</div>
+                                As for the user profiling part, in this portion of the tutorial, we will cover the most important notions about graph neural networks, such as basic terminology and most popular architectures (e.g. GCN and GAT), with the aim to create a common background to make the audience able to follow the core tutorial sections.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"></th>
+                            <td>
+                                <div style="margin-bottom: 9px;"><strong>GNN-based models for user profiling</strong> (25 mins)</div>
+                                We will present in detail the current state-of-the-art GNN-based model for user profiling, such as CatGCN, RHGN and others, describing their architectures, their training procedures, and discussing their strengths and weaknesses.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"></th>
+                            <td>
+                                <div style="margin-bottom: 9px;"><strong>Hands on state-of-the-art GNN-based models for user profiling</strong> (25 mins)</div>
+                                To show in practice how the described GNN models are designed and implemented, we will execute and explain some of the models, such as CatGCN and RHGN, in their original configuration, also illustrating the used datasets for every contribution (e.g. Alibaba and JD).
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"><strong>5 mins</strong></th>
+                            <td>
+                                <div style="margin-bottom: 9px;"><strong>Q&A</strong></div>
+                            </td>
+                        </tr>
+                        <!-- <tr>
+                            <th scope="row" class="time"><strong>30 mins</strong></th>
+                            <td><strong>Coffee Break</strong></td>
+                        </tr> -->
+                        <tr>
+                            <th scope="row" class="time"><strong>70 mins</strong></th>
+                            <td><strong>Beyond-accuracy perspectives session</strong></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"></th>
+                            <td>
+                                <div style="margin-bottom: 9px;"><strong>Overview on beyond-accuracy perspectives for user profiling with GNNs</strong> (25 mins)</div>
+                                The fairness and explainability aspects encountered in user profiling research will be discussed in the last part of the first session. Several points of view will be taken into account:
+                                <ul>
+                                    <li>analysis of the beyond-accuracy perspectives in existing state-of-the-art GNN-based models;</li>
+                                    <li>description of models designed for the precise purpose, such as FairGNN;</li>
+                                    <li>application of general GNN approaches for fairness or explainability to a specific user profiling case study, such as GNNExplainer.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"></th>
+                            <td>
+                                <div style="margin-bottom: 9px;"><strong>Hands on FairGNN</strong> (10 mins)</div>
+                                We will illustrate FairGNN, a state-of-the-art GNN-based framework for debiasing, and run it on the datasets used in the original publication (i.e. NBA and Pokec).
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"></th>
+                            <td>
+                                <div style="margin-bottom: 9px;"><strong>Use cases on related beyond-accuracy perspectives</strong> (35 mins)</div>
+                                We will apply the three approaches described in the last section of the theoretical session by making use of a standardised framework developed for analysing fairness and explainability in GNN-based models for user profiling. In particular, the framework can get a graph structure in NetworkX or Neo4J format and generate the specific input for each of the GNNs. The participants will be able to compute different types of biases (i.e. binary and multiclass), as well as execute several debiasing strategies and explainability methods.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"><strong>15 mins</strong></th>
+                            <td><strong>Discussion and open challenges</strong></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="time"><strong>5 mins</strong></th>
+                            <td><strong>Closing</strong></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--==========================
+    Material Section
+    ============================-->
+    <section id="resources" class="wow fadeInUp section-with-bg">
+
+        <div class="container-fluid">
+            <div class="section-header">
+                <h2>Material</h2>
+                <p><em>To be published</em></p>              
+            </div>
+        </div>
+
+    </section>
+
+    <!--==========================
+    Presenters Section
+    ============================-->
+    <section id="organizers" class="wow fadeInUp">
+
+        <div class="container-fluid">
+            <div class="section-header">
+                <h2>Presenters</h2>
+
+                <p style="text-align: center;"><img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=S1h4tPUAAAAJ&citpid=3" class="img-rounded" alt="Erasmo Purificato" style="width:150px;"></p>
+                <p style="text-align: center;"><strong><a href="https://erasmopurif.com/" target="_blank">Erasmo Purificato</a></strong> <br>Otto von Guericke University Magdeburg (Germany) <br> Leibniz Institute for Educational Media | Georg Eckert Institute (Germany)</p>
+                <br><br>
+                <p style="text-align: center;"><img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=1unjC10AAAAJ&citpid=8" class="img-rounded" alt="Ludovico Boratto" style="width:150px;"></p>
+                <p style="text-align: center;"><strong><a href="https://www.ludovicoboratto.com/" target="_blank">Ludovico Boratto</a></strong> <br>University of Cagliari (Italy)</p>
+                <br><br>
+                <p style="text-align: center;"><img src="img/deluca.jpg" class="img-rounded" alt="Ernesto William De Luca" style="width:150px;"></p>
+                <p style="text-align: center;"><strong><a href="https://scholar.google.com/citations?user=riCjuhkAAAAJ" target="_blank">Ernesto William De Luca</a></strong> <br>Otto von Guericke University Magdeburg (Germany) <br> Leibniz Institute for Educational Media | Georg Eckert Institute (Germany)</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--==========================
+    Registration Section
+    ============================-->
+    <section id="registration" class="wow fadeInUp section-with-bg">
+
+        <div class="container-fluid">
+            <div class="section-header">
+                <h2>Registration</h2>
+                <p>Registration to the tutorial will be managed by the UMAP 2023 main conference organization.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--==========================
+    Contacts Section
+    ============================-->
+    <section id="contacts" class="wow fadeInUp">
+
+        <div class="container-fluid">
+            <div class="section-header">
+                <h2>Contacts</h2>
+                <p>
+                    For any request you might have, please contact us at <strong>erasmo.purificato [at] ovgu.de</strong>, <strong>ludovico.boratto [at] acm.org</strong> and
+                    <strong>ernesto.deluca [at] ovgu.de</strong>.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+</main>
+
+  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
