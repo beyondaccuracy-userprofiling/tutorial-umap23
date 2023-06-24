@@ -240,21 +240,21 @@ val_idx_item = torch.tensor(shuffle[int(G.number_of_nodes('item')*0.75):int(G.nu
 test_idx_item = torch.tensor(shuffle[int(G.number_of_nodes('item')*0.875):]).long()
 '''Sampling'''
 sampler = dgl.dataloading.MultiLayerFullNeighborSampler(2)
-train_dataloader = dgl.dataloading.NodeDataLoader(
+train_dataloader = dgl.dataloading.DataLoader(
     G, {'user':train_idx.to(device)}, sampler,
     batch_size=args.batch_size,
     shuffle=False,
     drop_last=False,
     device=device)
 
-val_dataloader = dgl.dataloading.NodeDataLoader(
+val_dataloader = dgl.dataloading.DataLoader(
     G, {'user':val_idx.to(device)}, sampler,
     batch_size=args.batch_size,
     shuffle=False,
     drop_last=False,
     device=device)
 
-test_dataloader = dgl.dataloading.NodeDataLoader(
+test_dataloader = dgl.dataloading.DataLoader(
     G, {'user':test_idx.to(device)}, sampler,
     batch_size=args.batch_size,
     shuffle=False,
