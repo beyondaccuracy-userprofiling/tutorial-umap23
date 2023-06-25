@@ -19,7 +19,7 @@ Presenters:
 
 ## Citation
 
-If you find the content and the slides of the tutorial useful for your research, we would appreciate an acknowledgment by citing our summary in the UMAP '23 proceedings:
+If you find the topics and the slides of the tutorial useful for your research, we would appreciate an acknowledgment by citing our summary in the UMAP'23 proceedings:
 
 ```
 @inproceedings{10.1145/3565472.3595616,
@@ -37,5 +37,41 @@ numpages = {4},
 keywords = {Explainability, Fairness, User Profiling, Graph Neural Networks},
 location = {Limassol, Cyprus},
 series = {UMAP '23}
+}
+```
+
+If you also appreciate the hands-on sessions and the notebooks, we would be glad to have your acknowledgement in case they are helpful for your research by citing our CIKM'22 and SIGIR'23 papers:
+
+```
+@inproceedings{10.1145/3511808.3557584,
+author = {Purificato, Erasmo and Boratto, Ludovico and De Luca, Ernesto William},
+title = {Do Graph Neural Networks Build Fair User Models? Assessing Disparate Impact and Mistreatment in Behavioural User Profiling},
+year = {2022},
+isbn = {9781450392365},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3511808.3557584},
+doi = {10.1145/3511808.3557584},
+booktitle = {Proceedings of the 31st ACM International Conference on Information \& Knowledge Management},
+pages = {4399–4403},
+numpages = {5},
+keywords = {user models, fairness, user profiling, graph neural networks},
+location = {Atlanta, GA, USA},
+series = {CIKM '22}
+}
+```
+
+```
+@inproceedings{Abdelrazek2023FairUP,
+    author = {Abdelrazek, Mohamed and Purificato, Erasmo and Boratto, Ludovico and De Luca, Ernesto William},
+    title = {FairUP: a Framework for Fairness Analysis of Graph Neural Network-Based User Profiling Models},
+    year = {2023},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3539618.3591814},
+    doi = {10.1145/3539618.3591814},
+    booktitle = {To appear in 46th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+    location = {Taipei, Taiwan},
+    series =  {SIGIR '23}
 }
 ```
