@@ -12,11 +12,12 @@ Presenters:
 
 * [Slides](https://www.slideshare.net/ErasmoPurificato2/tutorial-on-user-profiling-with-graph-neural-networks-and-related-beyondaccuracy-perspectives)
 * [Website](https://beyondaccuracy-userprofiling.github.io/tutorial-umap23/)
-* [Google Drive folder](https://drive.google.com/drive/folders/1bNDrHaqmvQH8iiNcbMnetYgcq6y3roGM)
-* [Notebook 1: CatGCN](https://colab.research.google.com/drive/1mbo-PXiRhG_g8frBN3CaY0rBDDn2P9qu?usp=sharing)
-* [Notebook 2: RHGN](https://colab.research.google.com/drive/1Cu1seA9Cm4B-E4XriKkjVRGMMSn5YC1s?usp=sharing)
-* [Notebook 3: Fairness](https://colab.research.google.com/drive/1CtaUNao4BBxqeq7OXv_ap5h-PGuQIIlN?usp=sharing)
-* [Notebook 4: FairGNN](https://colab.research.google.com/drive/13qnZ-iDf5WdttQPwHfTI1bJTNMGwHBDx?usp=sharing)
+* [Resource folder](https://drive.google.com/drive/folders/1zmuYK8pn3-vKTxdJvkhwO3EsqDHssJOa?usp=share_link) (*no datasets*)
+* [Datasets](http://gofile.me/72h0u/qdRw7y26c)
+* [Notebook 1: CatGCN](https://colab.research.google.com/drive/1zsx4an6BKYhJ_UT-mSl1_qPB-zyjTmrA?usp=share_link)
+* [Notebook 2: RHGN](https://colab.research.google.com/drive/1zzNuIu6zmxwJmGZNRxFLeosU2R3yXU0s?usp=share_link)
+* [Notebook 3: Fairness](https://colab.research.google.com/drive/1zxhwGDjEOfDmUxb2DA-j9Pv9zLVFYC_6?usp=share_link)
+* [Notebook 4: FairGNN](https://colab.research.google.com/drive/1zu2iELJtUs_k9qXC3sI0Ui2kDWFnzNDN?usp=share_link)
 
 ## Citation
 
